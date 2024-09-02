@@ -1,0 +1,111 @@
+
+.correct {
+    -fx-background-color: #68b653;
+    background-color: #68b653;
+    -fx-text-fill: white;
+}
+
+.correct-button {
+    -fx-background-color: #68b653;
+    background-color: #68b653;
+    -fx-text-fill: white;
+}
+.correct-button:hover {
+    -fx-background-color: #569644;
+    background-color: #569644;
+}
+
+.present {
+    -fx-background-color: #c8b653;
+    background-color: #c8b653;
+    -fx-text-fill: white;
+}
+
+.present-button {
+    -fx-background-color: #c8b653;    
+    background-color: #c8b653;   
+    -fx-text-fill: white;      
+}
+.present-button:hover {
+    -fx-background-color: #a69846;
+    background-color: #a69846; 
+}
+
+.incorrect {
+    -fx-background-color: #787c7f;
+    background-color: #787c7f; 
+    -fx-text-fill: white;
+}
+.default-grid {
+    -fx-background-color: white;
+    background-color: white;
+}
+
+.default-button {
+    -fx-background-color: #d6d6d6; 
+    background-color: #d6d6d6; 
+}
+.default-button:hover {
+    -fx-background-color: #b3b3b3;
+    background-color: #b3b3b3;
+}
+
+.default-keyboard {
+    -fx-background-color: #d6d6d6; 
+    background-color: #d6d6d6; 
+}
+.default-keyboard:hover {
+    -fx-background-color: #b3b3b3;
+    background-color: #b3b3b3;
+}
+
+
+/* Stats.css */
+.bar-label {
+    -fx-font-size: 10px;
+    font-size: 10px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    -fx-padding: 2px;
+    padding: 2px;
+    -fx-alignment: center;
+}
+
+.bar-chart .axis {
+    -fx-tick-labels-visible: true;
+    -fx-tick-mark-visible: false;
+    -fx-vertical-zero-line-visible: false;
+    -fx-horizontal-zero-line-visible: false;
+    -fx-vertical-grid-lines-visible: false;
+    -fx-horizontal-grid-lines-visible: false;
+    -fx-tick-length: 0;
+    -fx-minor-tick-visible: false;
+}
+
+.bar-chart .x-axis .axis-label {
+    -fx-text-fill: black;
+}
+
+.correct.chart-bar {
+    -fx-bar-fill: #68b653;
+}
+
+.gray.chart-bar {
+    -fx-bar-fill: #787c7f;
+}
+
+.franklin-font {
+    -fx-font-family: "NYTFranklin Semibold";
+    font-family: "NYTFranklin Semibold";
+}
+
+.title-font {
+    -fx-font-family: "NYTKarnak Display";
+    font-family: "NYTKarnak Display";
+    -fx-font-size: 36px;
+    font-size: 36px;
+}
+
