@@ -1,3 +1,16 @@
-Video Link:\n- https://youtu.be/OuLi0f4GdlI
-Project Description:
-In this recent project, I created a JavaFX application that simulates Wordle. I built this using Java 11 and JavaFX for the GUI components and used Maven for project management. I also used an MVC design to separate the logic from the UI to keep it readable and scalable. Some features I implemented were real-time word validation, score tracking, and serialization/deserialization of saved game data. The word validation feature checks if the word is in the 10,000+ list of guessable words and if the word is the correct length. The program also selects a random word from a list of over 2,000 potential words. To implement a load/save feature, I serialized the game state to a file and deserialized it when the app was reopened. This project also taught me front-end design and how to create a user-friendly interface.
+# Wordle Simulator in JavaFX
+
+## Video Link
+- [Watch the Demo](https://youtu.be/OuLi0f4GdlI)
+
+## Project Description
+In this project, I created a JavaFX application that simulates the popular game Wordle. This application was built using Java 11 and JavaFX for the GUI components, with Maven used for project management. The application was designed using the Model-View-Controller (MVC) architecture to ensure that the logic and UI are separate, making the codebase both readable and scalable.
+
+### Key Features:
+- **Real-time Word Validation**: The application checks if the guessed word is within a list of over 10,000 valid words and ensures it matches the required length.
+- **Random Word Selection**: Each game session randomly selects a word from a pool of over 2,000 possible words.
+- **Score Tracking**: The game tracks the player's score throughout the session.
+- **Load/Save Functionality**: The game state can be saved to a file and reloaded when the application is reopened, thanks to serialization and deserialization.
+
+### Learning Outcomes:
+This project not only reinforced my understanding of Java and JavaFX but also provided valuable experience in front-end design. I learned how to create a user-friendly interface that offers a seamless gaming experience.
